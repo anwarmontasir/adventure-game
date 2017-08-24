@@ -48,6 +48,11 @@ class App extends Component {
           gameMsg: 'You went ' + keyVal[0] + '.',
           errorMsg: ''
         });
+      } else if (keyVal[0] === 'right' && roomNum === 13) {
+          this.setState({
+            gameMsg: '',
+            errorMsg: 'The door is locked! Use the key.'
+          });
       } else {
         this.setState({
           gameMsg: '',

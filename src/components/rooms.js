@@ -82,7 +82,7 @@ const rooms = [
     },
     {
         key: 13,
-        directions: ['right', 'left'],
+        directions: ['left'],
         items: [],
         characters: [characters[2]]
     },
